@@ -2,6 +2,7 @@ def add_array_lengths(array1, array2)
   return array1.length + array2.length
 end
 
+
 def sum_array(numbers)
   total = 0
   for i in numbers
@@ -10,6 +11,7 @@ def sum_array(numbers)
   return total
 end
 
+
 def find_item(array, item)
   for i in array
     if i == item
@@ -17,4 +19,10 @@ def find_item(array, item)
     end
   end
   return false
+end
+
+
+def get_first_key(hash)
+  first_key = hash.keys.first
+  return first_key
 end
